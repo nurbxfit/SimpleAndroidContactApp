@@ -9,7 +9,6 @@ saved contact database, delete and edit contacts and make a call or sent a mail 
 contact information.
 ```
 
-```
 The​ ​ list​ ​ of​ ​ saved​ ​ contact​ ​ will​ ​ be​ ​ stored​ ​ in​ ​ a ​ ​ local​ ​ SQLite​ ​ database​ ​ on​ ​ the​ ​ phone​ ​ and​ ​ get
 displayed​ ​ through​ ​ the​ ​ Recyclerview​ ​ widget​ ​ inside​ ​ android.​ ​ The​ ​ recyclerview​ ​ list​ ​ hold​ ​ a ​ ​ cardview
 widget​ ​ with​ ​ help​ ​ of​ ​ custom​ ​ recyclerview​ ​ adapter​ ​ that​ ​ inflate​ ​ a ​ ​ custom​ ​ layout​ ​ to​ ​ display
@@ -29,7 +28,7 @@ user​ ​ to​ ​ sent​ ​ message​ ​ to​ ​ that​ ​ contact.
 This​ ​ app​ ​ also​ ​ have​ ​ the​ ​ function​ ​ to​ ​ search​ ​ through​ ​ the​ ​ list​ ​ of​ ​ contacts​ ​ and​ ​ only​ ​ show​ ​ the​ ​ relevant
 contact​ ​ on​ ​ the​ ​ recyclerview​ ​ based​ ​ on​ ​ the​ ​ name​ ​ the​ ​ user​ ​ search​ ​ for.​ ​ SearchView​ ​ and​ ​ database
 query​ ​ were​ ​ implemented​ ​ for​ ​ the​ ​ search​ ​ functionality​ ​ to​ ​ works.
-```
+
 ## ScreenShots
 ![Screenshots](https://github.com/nurbxfit/SimpleAndroidContactApp/blob/master/images/Screenshot_1538654750.png)
 ![Screenshots](https://github.com/nurbxfit/SimpleAndroidContactApp/blob/master/images/Screenshot_1538654766.png)
