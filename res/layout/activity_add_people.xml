@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fitri.conapps.AddPeopleActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <ImageView
+            android:id="@+id/ProfileImage"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/user"
+            android:background="@android:color/darker_gray"
+            />
+
+
+        <ImageView
+            android:id="@+id/nameicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/user"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/ProfileImage"/>
+
+        <EditText
+            android:id="@+id/newName"
+            android:hint="Name"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/nameicon"
+            android:layout_below="@+id/ProfileImage"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            />
+
+        <ImageView
+            android:id="@+id/emailicon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/message"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/nameicon"/>
+
+        <EditText
+            android:id="@+id/newemail"
+            android:hint="Email Address"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/emailicon"
+            android:layout_below="@+id/newName"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:inputType="textEmailAddress"
+            />
+
+
+        <ImageView
+            android:id="@+id/addressIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/homeicon"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/emailicon"/>
+
+        <EditText
+            android:id="@+id/newAddress"
+            android:hint="Address"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/addressIcon"
+            android:layout_below="@+id/newemail"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:inputType="text"
+            />
+
+        <ImageView
+            android:id="@+id/phoneIcon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phoneicon"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/addressIcon"/>
+
+        <EditText
+            android:id="@+id/newPhone"
+            android:hint="Phone Number"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/addressIcon"
+            android:layout_below="@+id/newAddress"
+            android:paddingTop="10dp"
+            android:paddingLeft="20dp"
+            android:inputType="phone|text"
+            />
+
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Contact"
+            android:layout_below="@id/newPhone"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
